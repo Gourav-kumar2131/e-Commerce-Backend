@@ -23,7 +23,7 @@ This project is an e-commerce backend application built using Node.js and Expres
 * Middleware for validating user requests and authenticating tokens.
 
 ## Project Structure
-📂 ECOMMERCEPROJECT/<br> ┣ 📂 models/ <br>┃ ┣ 📜 userModel.js<br> ┃ ┣ 📜 productModel.js <br>┃ ┗ 📜 CategoryModel.js <br>┣ 📂 controllers/ <br>┃ ┣ 📜 userController.js<br> ┃ ┣ 📜 productController.js <br> ┃ ┗ 📜 CategoryController.js <br>┣ 📂 routes/<br> ┃ ┣ 📜 userRoutes.js <br>┃ ┣ 📜 productRoutes.js<br> ┃ ┗ 📜 CategoryRoutes.js<br> ┣ 📂 middlewares/ <br>┃ ┣ 📜 authMiddleware.js <br> ┃ ┣ 📜 Category.ReqValidator <br> ┣ 📂 config/ <br> ┃ ┣ auth.config.js 📜 <br> ┃ ┣ 📜 dbconfig.js <br>┃ ┣ 📜 server.config.js <br> ┃ ┗ 📜 server.js
+📂 ECOMMERCEPROJECT/<br> ┣ 📂 models/ <br>┃ ┣ 📜 userModel.js<br> ┃ ┣ 📜 productModel.js <br>┃ ┗ 📜 CategoryModel.js <br>┣ 📂 controllers/ <br>┃ ┣ 📜 userController.js<br> ┃ ┣ 📜 productController.js <br> ┃ ┗ 📜 CategoryController.js <br>┣ 📂 routes/<br> ┃ ┣ 📜 userRoutes.js <br>┃ ┣ 📜 productRoutes.js<br> ┃ ┗ 📜 CategoryRoutes.js<br> ┣ 📂 middlewares/ <br>┃ ┣ 📜 authMiddleware.js <br> ┃ ┣ 📜 Category.ReqValidator <br> ┣ 📂 config/ <br> ┃ ┣ auth.config.js 📜 <br> ┃ ┣ 📜 dbconfig.js <br>┃ ┣ 📜 server.config.js <br>  ┗ 📜 server.js
 
 
 ## Technologies Used
