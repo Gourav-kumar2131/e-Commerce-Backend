@@ -36,49 +36,49 @@ This project is an e-commerce backend application built using Node.js and Expres
 ## Installation and Setup
 
 1. Clone the repository:
---> git clone https://github.com/Gourav-kumar2131/e-Commerce-Backend.git
---> cd e-Commerce-Backend
+--> git clone https://github.com/Gourav-kumar2131/e-Commerce-Backend.git <br>
+--> cd e-Commerce-Backend <br>
 
 2. Install dependencies: <br>
   -->  npm install
 
 3. Configure environment variables: Create a .config file with the following:
 --> PORT=3000
---> MONGO_URI=your_mongo_database_uri
---> JWT_SECRET=your_jwt_secret
+--> MONGO_URI= your_mongo_database_uri
+--> JWT_SECRET= your_jwt_secretCode
 
 
 ## API Endpoints
 **Authentication**
-**POST** localhost:8888/ecomm/api/v1/auth/signup - Register a new user. <br>
+* **POST** localhost:8888/ecomm/api/v1/auth/signup - Register a new user. <br>
 ![SignUp SS](Utility/SignUpSS.png)
-**POST** /api/auth/login - Log in a user and return a JWT token. <br>
+* **POST** /api/auth/login - Log in a user and return a JWT token. <br>
 ![SignIn SS](Utility/SingIn_SS.png)
 
 **Category Management**
-**GET** localhost:8888/ecomm/api/v1/auth/categories - Fetch all the Category <br>
+* **GET** localhost:8888/ecomm/api/v1/auth/categories - Fetch all the Category <br>
 ![alt text](Utility/AllCategory.png)
 
-**GET** localhost:8888/ecomm/api/v1/auth/categories/:name  - Fetch specific catergory by name <br>
+* **GET** localhost:8888/ecomm/api/v1/auth/categories/:name  - Fetch specific catergory by name <br>
 ![alt text](Utility/OneCategory.png)
 
-**PUT** localhost:8888/ecomm/api/v1/auth/categories/update - Edit a Category <br>
+* **PUT** localhost:8888/ecomm/api/v1/auth/categories/update - Edit a Category <br>
 ![alt text](Utility/EditCaategory.png)
 
-**DELETE** localhost:8888/ecomm/api/v1/auth/categories/delete - Delete a Category by name <br>
+* **DELETE** localhost:8888/ecomm/api/v1/auth/categories/delete - Delete a Category by name <br>
 ![alt text](Utility/DelCategory.png)
 
 
 ## Product Management
-**GET** /api/products - Fetch all products.
-**POST** /api/products - Create a new product (admin only).
-**POST** /api/orders - Place a new order.
-**GET** /api/orders/:id - Get details of a specific order.
+* **GET** /api/products - Fetch all products. 
+* **POST** /api/products - Create a new product (admin only).
+* **POST** /api/orders - Place a new order.
+* **GET** /api/orders/:id - Get details of a specific order.
 
 ## Security Features
-**Token-based authentication:** JWT ensures secure login and user sessions.
-**Password hashing:** bcrypt hashes and encrypts passwords before storing them in the database.
-**Request validation:** Middleware checks and validates incoming requests for secure and consistent data handling.
+* **Token-based authentication:** JWT ensures secure login and user sessions.
+* **Password hashing:** bcrypt hashes and encrypts passwords before storing them in the database.
+* **Request validation:** Middleware checks and validates incoming requests for secure and consistent data handling.
 ## Future Improvements
 1. Add support for payment gateway integration.
 2. Implement role-based access control for admin and user functionalities.
