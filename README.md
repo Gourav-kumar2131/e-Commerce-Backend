@@ -23,7 +23,7 @@ This project is an e-commerce backend application built using Node.js and Expres
 * Middleware for validating user requests and authenticating tokens.
 
 ## Project Structure
-📂 project-folder/ ┣ 📂 models/ ┃ ┣ 📜 userModel.js ┃ ┣ 📜 productModel.js ┃ ┗ 📜 orderModel.js ┣ 📂 controllers/ ┃ ┣ 📜 userController.js ┃ ┣ 📜 productController.js ┃ ┗ 📜 orderController.js ┣ 📂 routes/ ┃ ┣ 📜 userRoutes.js ┃ ┣ 📜 productRoutes.js ┃ ┗ 📜 orderRoutes.js ┣ 📂 middlewares/ ┃ ┣ 📜 authMiddleware.js ┗ 📜 server.js
+📂 project-folder/<br> ┣ 📂 models/ <br>┃ ┣ 📜 userModel.js<br> ┃ ┣ 📜 productModel.js <br>┃ ┗ 📜 CategoryModel.js ┣ 📂 controllers/ ┃ ┣ 📜 userController.js ┃ ┣ 📜 productController.js ┃ ┗ 📜 CategoryController.js ┣ 📂 routes/ ┃ ┣ 📜 userRoutes.js ┃ ┣ 📜 productRoutes.js ┃ ┗ 📜 CategoryRoutes.js ┣ 📂 middlewares/ ┃ ┣ 📜 authMiddleware.js ┗ 📜 server.js
 
 
 ## Technologies Used
@@ -43,9 +43,10 @@ This project is an e-commerce backend application built using Node.js and Expres
   -->  npm install
 
 3. Configure environment variables: Create a .config file with the following:
---> PORT=3000
---> MONGO_URI= your_mongo_database_uri
---> JWT_SECRET= your_jwt_secretCode
+--> PORT=3000 <br>
+--> MONGO_URI= your_mongo_database_uri <br>
+--> DB name = youd_Mongo_database_name <br>
+--> JWT_SECRET= your_jwt_secretCode <br>
 
 
 ## API Endpoints
