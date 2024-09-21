@@ -23,7 +23,7 @@ This project is an e-commerce backend application built using Node.js and Expres
 * Middleware for validating user requests and authenticating tokens.
 
 ## Project Structure
-📂 project-folder/<br> ┣ 📂 models/ <br>┃ ┣ 📜 userModel.js<br> ┃ ┣ 📜 productModel.js <br>┃ ┗ 📜 CategoryModel.js ┣ 📂 controllers/ ┃ ┣ 📜 userController.js ┃ ┣ 📜 productController.js ┃ ┗ 📜 CategoryController.js ┣ 📂 routes/ ┃ ┣ 📜 userRoutes.js ┃ ┣ 📜 productRoutes.js ┃ ┗ 📜 CategoryRoutes.js ┣ 📂 middlewares/ ┃ ┣ 📜 authMiddleware.js ┗ 📜 server.js
+📂 project-folder/<br> ┣ 📂 models/ <br>┃ ┣ 📜 userModel.js<br> ┃ ┣ 📜 productModel.js <br>┃ ┗ 📜 CategoryModel.js <br>┣ 📂 controllers/ <br>┃ ┣ 📜 userController.js<br> ┃ ┣ 📜 productController.js <br> ┃ ┗ 📜 CategoryController.js <br>┣ 📂 routes/<br> ┃ ┣ 📜 userRoutes.js <br>┃ ┣ 📜 productRoutes.js<br> ┃ ┗ 📜 CategoryRoutes.js<br> ┣ 📂 middlewares/ <br>┃ ┣ 📜 authMiddleware.js <br>┗ 📜 server.js
 
 
 ## Technologies Used
