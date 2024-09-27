@@ -1,5 +1,5 @@
 # E-Commerce Backend
-This project is an e-commerce backend application built using Node.js and Express.js. It follows a 3-tier architecture:
+This project is an e-commerce backend application containing set of RESTful APIs built using Node.js and Express.js. It follows a 3-tier architecture:
 
 **Router:** Handles incoming user requests.
 **Controller:** Processes user data and manages business logic.
